@@ -3,21 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
-        h1 { color: #0366d6; }
-        a { color: #0366d6; }
-    </style>
+    <title>SteinsGate · 个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
 </head>
 <body>
-    <h1>你好，我是 [你的名字]</h1>
-    <p>这是我用 GitHub Pages 搭建的个人主页。</p>
-    <h2>关于我</h2>
-    <ul>
-        <li>学校/公司：XXX</li>
-        <li>邮箱：your_email@example.com</li>
-        <li>GitHub: <a href="https://github.com/你的用户名">@你的用户名</a></li>
-    </ul>
+
+    <!-- ========== Sidebar ========== -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">🌸</div>
+            <h1>SteinsGate</h1>
+            <p>记录 · 分享 · 成长</p>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#" data-nav="home" class="active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">首页</span>
+            </a>
+            <a href="#/resources">
+                <span class="nav-icon">📚</span>
+                <span class="nav-text">资源分享</span>
+            </a>
+            <a href="https://github.com/0x0000" target="_blank" rel="noopener">
+                <span class="nav-icon">💻</span>
+                <span class="nav-text">GitHub</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; <span class="footer-year-set"></span> SteinsGate</p>
+        </div>
+    </aside>
+
+    <!-- ========== Main ========== -->
+    <main class="container">
+
+        <!-- ===== List View ===== -->
+        <div id="list-view" class="view active">
+            <div class="list-header">
+                <h2>文章</h2>
+            </div>
+
+            <div class="categories" id="categories">
+                <!-- rendered by JS -->
+            </div>
+
+            <div class="posts-grid" id="posts-grid">
+                <div class="loading-spinner" style="grid-column:1/-1">
+                    <div class="spinner"></div>
+                    <p>加载中...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== Article View ===== -->
+        <div id="article-view" class="view">
+            <div class="article-container">
+                <button class="back-btn" id="back-btn">← 返回</button>
+
+                <article>
+                    <header class="article-header">
+                        <div id="article-meta">
+                            <!-- rendered by JS -->
+                        </div>
+                        <h1 class="article-title" id="article-title"></h1>
+                        <div class="article-tags" id="article-tags"></div>
+                    </header>
+                    <div class="article-content" id="article-content">
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                            <p>加载中...</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- ===== Resources View ===== -->
+        <div id="resources-view" class="view">
+            <div class="list-header">
+                <h2>📚 资源收藏</h2>
+            </div>
+            <div id="resources-container">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>加载中...</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ========== Scroll to Top ========== -->
+    <button class="scroll-top" id="scroll-top" title="回到顶部">↑</button>
+
+    <!-- ========== Footer ========== -->
+    <footer class="site-footer">
+        <p>&copy; <span class="footer-year-set"></span> SteinsGate · Powered by GitHub Pages</p>
+    </footer>
+
+    <!-- ========== Scripts ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('.footer-year-set').forEach(function (el) {
+            el.textContent = new Date().getFullYear();
+        });
+        document.querySelector('[data-nav="home"]').addEventListener('click', function (e) {
+            e.preventDefault();
+            location.hash = '';
+        });
+        document.getElementById('back-btn').addEventListener('click', function () {
+            history.back();
+        });
+        // Sidebar nav active state
+        window.addEventListener('hashchange', function () {
+            document.querySelectorAll('.sidebar-nav a').forEach(function (a) {
+                a.classList.remove('active');
+            });
+            var hash = location.hash || '#';
+            document.querySelectorAll('.sidebar-nav a').forEach(function (a) {
+                if (hash === '#' && a.getAttribute('href') === '#') {
+                    a.classList.add('active');
+                } else if (hash !== '#' && a.getAttribute('href') === hash) {
+                    a.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

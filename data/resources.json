@@ -1,0 +1,79 @@
+[
+  {
+    "category": "摄影设计",
+    "icon": "📸",
+    "items": [
+      { "title": "免抠图片网", "url": "https://miankoutupian.com/", "desc": "透明背景 PNG 图片素材" },
+      { "title": "Pixabay", "url": "https://pixabay.com/zh/", "desc": "免费正版高清图片/视频素材库" },
+      { "title": "Storyset", "url": "https://storyset.com/", "desc": "可自定义、可动画的免费插画" },
+      { "title": "Photopea", "url": "https://www.photopea.com/", "desc": "在线 Photoshop 替代，免安装" },
+      { "title": "光参数", "url": "https://www.guangcanshu.com/", "desc": "相机和镜头评测网站" },
+      { "title": "无忧相机水印", "url": "https://camera-watermark.blogwxb.cn/", "desc": "相机水印工具" },
+      { "title": "超能画布", "url": "https://photo.baidu.com/photasy/home", "desc": "百度 AI 摄影工具" },
+      { "title": "100font", "url": "https://www.100font.com/", "desc": "免费商用字体下载" },
+      { "title": "稿定设计", "url": "https://m.gaoding.com/", "desc": "在线设计模板平台" },
+      { "title": "Adobe Lightroom Classic", "url": "https://www.yutu.cn/softhtml/showsoft_8953.html", "desc": "2024 版摄影后期软件" }
+    ]
+  },
+  {
+    "category": "音效视频",
+    "icon": "🎬",
+    "items": [
+      { "title": "Musicbed", "url": "https://www.musicbed.com/songs", "desc": "高品质音乐授权平台" },
+      { "title": "Artlist SFX", "url": "https://artlist.io/sfx/search", "desc": "优质音效库下载" },
+      { "title": "Storyblocks", "url": "https://www.storyblocks.com/", "desc": "免版税视频/音频/图片" },
+      { "title": "Envato Elements", "url": "https://elements.envato.com/audio", "desc": "海量音频资源" },
+      { "title": "Mixkit", "url": "https://mixkit.co/", "desc": "免费视频项目素材" },
+      { "title": "黑罐头", "url": "https://www.heycan.com/home", "desc": "一站式素材共享平台" },
+      { "title": "DaVinci Resolve 培训", "url": "https://www.blackmagicdesign.com/cn/products/davinciresolve/training", "desc": "达芬奇官方教程" },
+      { "title": "B站视频解析下载", "url": "https://bilibili.iiilab.com/", "desc": "B站视频在线下载工具" },
+      { "title": "Video Subtitle Remover", "url": "https://github.com/YaoFANGUK/video-subtitle-remover", "desc": "AI 视频硬字幕去除工具" }
+    ]
+  },
+  {
+    "category": "AI 工具",
+    "icon": "🤖",
+    "items": [
+      { "title": "Fish Audio", "url": "https://fish.audio/zh-CN/text-to-speech/", "desc": "生成式 AI 语音合成与克隆" },
+      { "title": "VideoCaptioner API", "url": "https://api.videocaptioner.cn/", "desc": "视频字幕生成 API" },
+      { "title": "网易见外工作台", "url": "https://jianwai.youdao.com/", "desc": "AI 音视频转写翻译平台" },
+      { "title": "Real-ESRGAN", "url": "https://github.com/xinntao/Real-ESRGAN", "desc": "AI 图像/视频超分辨率修复" },
+      { "title": "BasicSR", "url": "https://github.com/XPixelGroup/BasicSR", "desc": "开源图像/视频复原工具箱" }
+    ]
+  },
+  {
+    "category": "开发工具",
+    "icon": "💻",
+    "items": [
+      { "title": "MDN Web 文档", "url": "https://developer.mozilla.org/zh-CN/docs/Learn", "desc": "Web 开发权威学习指南" },
+      { "title": "MyBatis 官网", "url": "https://mybatis.net.cn/", "desc": "Java 持久层框架中文文档" },
+      { "title": "Java SE 11 文档", "url": "https://www.runoob.com/manual/jdk11api/index.html", "desc": "JDK 11 API 中文手册" },
+      { "title": "Django 文档", "url": "https://docs.djangoproject.com/zh-hans/5.0/", "desc": "Django 框架官方中文文档" },
+      { "title": "MongoDB 安装指南", "url": "https://www.cnblogs.com/TM0831/p/10606624.html", "desc": "Windows 平台 MongoDB 安装教程" },
+      { "title": "Redis 安装指南", "url": "https://blog.csdn.net/qq_40897648/article/details/83819544", "desc": "Windows 系统安装 Redis" }
+    ]
+  },
+  {
+    "category": "机器学习",
+    "icon": "🧠",
+    "items": [
+      { "title": "CelebA 数据集", "url": "http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html", "desc": "大规模人脸属性数据集" },
+      { "title": "Pytorch 模型保存与加载", "url": "https://zhuanlan.zhihu.com/p/38056115", "desc": "知乎教程" },
+      { "title": "GAN 教程", "url": "https://github.com/makeyourownneuralnetwork/gan", "desc": "Make Your Own GAN 配套代码" },
+      { "title": "Jupyter Nbextensions", "url": "https://blog.csdn.net/qq_43139145/article/details/128073474", "desc": "Jupyter 插件功能配置" },
+      { "title": "Anaconda 环境管理", "url": "https://blog.csdn.net/weixin_52459924/article/details/124568123", "desc": "Conda 创建/激活/删除环境" }
+    ]
+  },
+  {
+    "category": "平台账号",
+    "icon": "🌐",
+    "items": [
+      { "title": "小红书", "url": "https://www.xiaohongshu.com/explore", "desc": "社交分享平台" },
+      { "title": "小红书创作平台", "url": "https://creator.xiaohongshu.com/", "desc": "小红书创作者后台" },
+      { "title": "抖音", "url": "https://www.douyin.com/user/self", "desc": "短视频平台个人主页" },
+      { "title": "视频号助手", "url": "https://channels.weixin.qq.com/", "desc": "微信视频号内容管理" },
+      { "title": "大疆 DJI", "url": "https://www.dji.com/cn", "desc": "大疆创新官方网站" },
+      { "title": "香港格價網", "url": "https://m.price.com.hk/", "desc": "香港 No.1 格价平台" }
+    ]
+  }
+]

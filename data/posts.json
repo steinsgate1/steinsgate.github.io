@@ -1,0 +1,12 @@
+[
+  {
+    "id": "welcome",
+    "title": "欢迎来到我的博客",
+    "date": "2024-06-16",
+    "category": "essay",
+    "categoryLabel": "随笔",
+    "tags": ["hello", "blog"],
+    "excerpt": "这是我的第一篇博客文章。在这里，我会记录技术思考、生活感悟和一切有趣的事情。",
+    "file": "posts/welcome.md"
+  }
+]
