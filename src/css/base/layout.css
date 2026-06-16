@@ -1,0 +1,32 @@
+.site-header {
+  display: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 40px;
+  margin-left: 220px;
+  min-height: 100vh;
+  transition: var(--transition);
+}
+
+.sidebar.collapsed ~ .container {
+  margin-left: 60px;
+}
+
+.view { display: none; }
+.view.active { display: block; }
+
+.site-footer {
+  text-align: center;
+  padding: 32px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-left: 220px;
+  transition: var(--transition);
+}
+
+.sidebar.collapsed ~ .site-footer {
+  margin-left: 60px;
+}

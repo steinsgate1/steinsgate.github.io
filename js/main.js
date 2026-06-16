@@ -62,13 +62,31 @@
     if (route.startsWith('/article/')) {
       const postId = route.replace('/article/', '');
       showArticle(postId);
+    } else if (route === '/posts' || route === '/' || route === '') {
+      showList();
     } else if (route === '/resources') {
       showResources();
     } else {
       showList();
     }
 
+    updateSidebarNav(route);
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function updateSidebarNav(route) {
+    $$('.sidebar-nav a').forEach(a => a.classList.remove('active'));
+    
+    let navRoute = route;
+    if (route === '/' || route === '') {
+      navRoute = '/posts';
+    }
+    
+    const activeLink = document.querySelector(`.sidebar-nav a[href="#${navRoute}"]`);
+    if (activeLink) {
+      activeLink.classList.add('active');
+    }
   }
 
   // ========== List View ==========
@@ -253,20 +271,50 @@
       }
     }
 
-    container.innerHTML = allResources.map(group => `
-      <section class="res-group">
-        <h2 class="res-group-title"><span class="res-group-icon">${group.icon}</span> ${group.category}</h2>
-        <div class="res-grid">
-          ${group.items.map(item => `
+    const defaultCategory = 0;
+
+    container.innerHTML = `
+      <div class="res-categories">
+        ${allResources.map((group, index) => `
+          <button class="res-category-btn ${index === defaultCategory ? 'active' : ''}" 
+                  data-category-index="${index}">
+            <span class="category-icon">${group.icon}</span>
+            <span class="category-name">${group.category}</span>
+          </button>
+        `).join('')}
+      </div>
+      <div class="res-content-area">
+        <div class="res-grid" id="res-grid-content">
+          ${allResources[defaultCategory].items.map(item => `
             <a class="res-card" href="${item.url}" target="_blank" rel="noopener">
-              <h3 class="res-card-title">${escapeHtml(item.title)}</h3>
+              <h3 class="res-card-title">🔗 ${escapeHtml(item.title)}</h3>
               <p class="res-card-desc">${escapeHtml(item.desc)}</p>
               <span class="res-card-link">访问 →</span>
             </a>
           `).join('')}
         </div>
-      </section>
-    `).join('');
+      </div>
+    `;
+
+    $$('.res-category-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        $$('.res-category-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        const categoryIndex = parseInt(this.getAttribute('data-category-index'));
+        const category = allResources[categoryIndex];
+
+        const contentArea = $('#res-grid-content');
+        
+        contentArea.innerHTML = category.items.map((item, idx) => `
+          <a class="res-card" href="${item.url}" target="_blank" rel="noopener">
+            <h3 class="res-card-title">🔗 ${escapeHtml(item.title)}</h3>
+            <p class="res-card-desc">${escapeHtml(item.desc)}</p>
+            <span class="res-card-link">访问 →</span>
+          </a>
+        `).join('');
+      });
+    });
   }
 
   // ========== Utils ==========
@@ -292,6 +340,18 @@
 
     btn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ========== Sidebar Toggle ==========
+  function initSidebarToggle() {
+    const toggleBtn = document.getElementById('sidebar-toggle');
+    const sidebar = document.getElementById('sidebar');
+    
+    if (!toggleBtn || !sidebar) return;
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('collapsed');
     });
   }
 
@@ -324,10 +384,12 @@
     document.addEventListener('DOMContentLoaded', () => {
       init();
       initScrollTop();
+      initSidebarToggle();
     });
   } else {
     init();
     initScrollTop();
+    initSidebarToggle();
   }
 
 })();

@@ -3,77 +3,1838 @@
     "category": "摄影设计",
     "icon": "📸",
     "items": [
-      { "title": "免抠图片网", "url": "https://miankoutupian.com/", "desc": "透明背景 PNG 图片素材" },
-      { "title": "Pixabay", "url": "https://pixabay.com/zh/", "desc": "免费正版高清图片/视频素材库" },
-      { "title": "Storyset", "url": "https://storyset.com/", "desc": "可自定义、可动画的免费插画" },
-      { "title": "Photopea", "url": "https://www.photopea.com/", "desc": "在线 Photoshop 替代，免安装" },
-      { "title": "光参数", "url": "https://www.guangcanshu.com/", "desc": "相机和镜头评测网站" },
-      { "title": "无忧相机水印", "url": "https://camera-watermark.blogwxb.cn/", "desc": "相机水印工具" },
-      { "title": "超能画布", "url": "https://photo.baidu.com/photasy/home", "desc": "百度 AI 摄影工具" },
-      { "title": "100font", "url": "https://www.100font.com/", "desc": "免费商用字体下载" },
-      { "title": "稿定设计", "url": "https://m.gaoding.com/", "desc": "在线设计模板平台" },
-      { "title": "Adobe Lightroom Classic", "url": "https://www.yutu.cn/softhtml/showsoft_8953.html", "desc": "2024 版摄影后期软件" }
+      {
+        "title": "免抠图片网",
+        "url": "https://miankoutupian.com/",
+        "desc": "透明背景 PNG 图片素材"
+      },
+      {
+        "title": "Storyset",
+        "url": "https://storyset.com/",
+        "desc": "可自定义、可动画的免费插画"
+      },
+      {
+        "title": "Pixabay",
+        "url": "https://pixabay.com/zh/",
+        "desc": "免费正版高清图片/视频素材库"
+      },
+      {
+        "title": "100font",
+        "url": "https://www.100font.com/",
+        "desc": "免费商用字体大全"
+      },
+      {
+        "title": "稿定设计",
+        "url": "https://m.gaoding.com/scenes/Store",
+        "desc": "在线设计模板平台"
+      },
+      {
+        "title": "Photopea",
+        "url": "https://www.photopea.com/",
+        "desc": "在线 Photoshop 替代，免安装"
+      },
+      {
+        "title": "光参数",
+        "url": "https://www.guangcanshu.com/index.html",
+        "desc": "相机和镜头评测网站"
+      },
+      {
+        "title": "无忧相机水印",
+        "url": "https://camera-watermark.blogwxb.cn/editList",
+        "desc": "相机水印工具"
+      },
+      {
+        "title": "Adobe Lightroom Classic",
+        "url": "https://www.yutu.cn/softhtml/showsoft_8953.html",
+        "desc": "2024版摄影后期软件"
+      },
+      {
+        "title": "超能画布",
+        "url": "https://photo.baidu.com/photasy/home",
+        "desc": "百度 AI 摄影工具"
+      },
+      {
+        "title": "香港格價網",
+        "url": "https://m.price.com.hk/",
+        "desc": "香港 No.1 格价平台"
+      },
+      {
+        "title": "WIN 2024版本",
+        "url": "https://www.yuque.com/doolook/bipasv/dnyrxyxxp34ry6ig",
+        "desc": "摄影软件资源"
+      }
     ]
   },
   {
     "category": "音效视频",
     "icon": "🎬",
     "items": [
-      { "title": "Musicbed", "url": "https://www.musicbed.com/songs", "desc": "高品质音乐授权平台" },
-      { "title": "Artlist SFX", "url": "https://artlist.io/sfx/search", "desc": "优质音效库下载" },
-      { "title": "Storyblocks", "url": "https://www.storyblocks.com/", "desc": "免版税视频/音频/图片" },
-      { "title": "Envato Elements", "url": "https://elements.envato.com/audio", "desc": "海量音频资源" },
-      { "title": "Mixkit", "url": "https://mixkit.co/", "desc": "免费视频项目素材" },
-      { "title": "黑罐头", "url": "https://www.heycan.com/home", "desc": "一站式素材共享平台" },
-      { "title": "DaVinci Resolve 培训", "url": "https://www.blackmagicdesign.com/cn/products/davinciresolve/training", "desc": "达芬奇官方教程" },
-      { "title": "B站视频解析下载", "url": "https://bilibili.iiilab.com/", "desc": "B站视频在线下载工具" },
-      { "title": "Video Subtitle Remover", "url": "https://github.com/YaoFANGUK/video-subtitle-remover", "desc": "AI 视频硬字幕去除工具" }
+      {
+        "title": "Musicbed",
+        "url": "https://www.musicbed.com/songs",
+        "desc": "高品质音乐授权平台"
+      },
+      {
+        "title": "Artlist SFX",
+        "url": "https://artlist.io/sfx/search",
+        "desc": "优质音效库下载"
+      },
+      {
+        "title": "Storyblocks",
+        "url": "https://www.storyblocks.com/",
+        "desc": "免版税视频/音频/图片"
+      },
+      {
+        "title": "Envato Elements",
+        "url": "https://elements.envato.com/audio",
+        "desc": "海量音频资源"
+      },
+      {
+        "title": "Mixkit",
+        "url": "https://mixkit.co/",
+        "desc": "免费视频项目素材"
+      },
+      {
+        "title": "黑罐头",
+        "url": "https://www.heycan.com/home",
+        "desc": "一站式素材共享平台"
+      },
+      {
+        "title": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/cn/products/davinciresolve/training",
+        "desc": "达芬奇官方教程"
+      },
+      {
+        "title": "B站视频解析下载",
+        "url": "https://bilibili.iiilab.com/",
+        "desc": "B站视频在线下载工具"
+      },
+      {
+        "title": "视频字幕去除",
+        "url": "https://github.com/YaoFANGUK/video-subtitle-remover",
+        "desc": "AI视频硬字幕去除工具"
+      },
+      {
+        "title": "小红书",
+        "url": "https://www.xiaohongshu.com/explore",
+        "desc": "社交分享平台"
+      },
+      {
+        "title": "小红书创作平台",
+        "url": "https://creator.xiaohongshu.com/",
+        "desc": "小红书创作者后台"
+      },
+      {
+        "title": "抖音",
+        "url": "https://www.douyin.com/user/self",
+        "desc": "短视频平台个人主页"
+      },
+      {
+        "title": "视频号助手",
+        "url": "https://channels.weixin.qq.com/",
+        "desc": "微信视频号内容管理"
+      },
+      {
+        "title": "大疆 DJI",
+        "url": "https://www.dji.com/cn",
+        "desc": "大疆创新官方网站"
+      },
+      {
+        "title": "网易见外工作台",
+        "url": "https://jianwai.youdao.com/",
+        "desc": "AI音视频转写翻译平台"
+      },
+      {
+        "title": "跨端文件",
+        "url": "https://cloud.oppo.com/owork/mapp/file/lately",
+        "desc": "跨端文件管理"
+      },
+      {
+        "title": "VideoCaptioner API",
+        "url": "https://api.videocaptioner.cn/token",
+        "desc": "视频字幕生成 API"
+      }
     ]
   },
   {
-    "category": "AI 工具",
+    "category": "AI工具",
     "icon": "🤖",
     "items": [
-      { "title": "Fish Audio", "url": "https://fish.audio/zh-CN/text-to-speech/", "desc": "生成式 AI 语音合成与克隆" },
-      { "title": "VideoCaptioner API", "url": "https://api.videocaptioner.cn/", "desc": "视频字幕生成 API" },
-      { "title": "网易见外工作台", "url": "https://jianwai.youdao.com/", "desc": "AI 音视频转写翻译平台" },
-      { "title": "Real-ESRGAN", "url": "https://github.com/xinntao/Real-ESRGAN", "desc": "AI 图像/视频超分辨率修复" },
-      { "title": "BasicSR", "url": "https://github.com/XPixelGroup/BasicSR", "desc": "开源图像/视频复原工具箱" }
+      {
+        "title": "Fish Audio",
+        "url": "https://fish.audio/zh-CN/text-to-speech/",
+        "desc": "生成式 AI 语音合成与克隆"
+      },
+      {
+        "title": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "desc": "探索未至之境"
+      },
+      {
+        "title": "豆包",
+        "url": "https://www.doubao.com/chat/",
+        "desc": "字节跳动旗下 AI 智能助手"
+      },
+      {
+        "title": "GPT",
+        "url": "https://chatgpt.com/",
+        "desc": "OpenAI ChatGPT"
+      },
+      {
+        "title": "AI工具集",
+        "url": "https://ai-bot.cn/",
+        "desc": "700+ AI工具集合导航"
+      },
+      {
+        "title": "Math3d",
+        "url": "https://www.math3d.org/",
+        "desc": "在线3D图形计算器"
+      },
+      {
+        "title": "Anakin",
+        "url": "https://app.anakin.ai/artist",
+        "desc": "AI绘画工具"
+      },
+      {
+        "title": "Lexica Aperture",
+        "url": "https://lexica.art/aperture",
+        "desc": "AI图像搜索"
+      },
+      {
+        "title": "Stable Diffusion WebUI",
+        "url": "https://stablediffusionweb.com/zh-cn/WebUI",
+        "desc": "在线AI绘画"
+      },
+      {
+        "title": "Ideogram",
+        "url": "https://ideogram.ai/login",
+        "desc": "AI图像生成"
+      },
+      {
+        "title": "Bing图像创建器",
+        "url": "https://www.bing.com/images/create",
+        "desc": "Microsoft Designer图像创建"
+      },
+      {
+        "title": "吐司 tusi.cn",
+        "url": "https://tusi.cn/models",
+        "desc": "AI模型分享平台"
+      },
+      {
+        "title": "Civitai",
+        "url": "https://civitai.com/",
+        "desc": "开源生成式AI模型社区"
+      },
+      {
+        "title": "录咖",
+        "url": "https://reccloud.cn/",
+        "desc": "在线AI语音/录音转文字工具"
+      },
+      {
+        "title": "MoneyPrinterTurbo",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "desc": "利用AI一键生成短视频"
+      },
+      {
+        "title": "Upscayl",
+        "url": "https://github.com/upscayl/upscayl",
+        "desc": "AI图像超分辨率工具"
+      },
+      {
+        "title": "Gradio",
+        "url": "https://voxcpm.modelbest.cn/",
+        "desc": "AI模型部署工具"
+      },
+      {
+        "title": "OpenRouter",
+        "url": "https://openrouter.ai/rankings",
+        "desc": "LLM排名与API聚合"
+      },
+      {
+        "title": "白山云GPU",
+        "url": "https://ai.baishan.com/website/model-api",
+        "desc": "GPU容器解决方案"
+      },
+      {
+        "title": "Dify",
+        "url": "https://cloud.dify.ai/apps",
+        "desc": "AI应用开发平台"
+      },
+      {
+        "title": "Midjourney平替网站",
+        "url": "https://vergillu.apifox.cn/doc-3527485",
+        "desc": "Midjourney 5个平替网站"
+      },
+      {
+        "title": "Stable Diffusion潜工具书",
+        "url": "https://docs.qq.com/doc/p/230e7ada2a60d8e347d639edd5521f5e62332fe9",
+        "desc": "SD学习资源"
+      },
+      {
+        "title": "讯飞AI社区",
+        "url": "https://developer.xfyun.cn/thread/117871",
+        "desc": "讯飞开放平台"
+      },
+      {
+        "title": "MiniMax",
+        "url": "https://platform.minimaxi.com/examination-center/text-experience-center/cc_v2",
+        "desc": "ChatCompletion V2"
+      },
+      {
+        "title": "DeepSeek-Codex",
+        "url": "https://blog.csdn.net/2503_91008971/article/details/160936598",
+        "desc": "Codex桌面版接入DeepSeek-V4"
+      },
+      {
+        "title": "超能画布",
+        "url": "https://photo.baidu.com/photo/wap/canvas-redirect",
+        "desc": "百度AI绘画工具"
+      },
+      {
+        "title": "Stable Diffusion WebUI 在线 | Stable Diffusion 在线",
+        "url": "https://stablediffusionweb.com/zh-cn/WebUI#demo",
+        "desc": "stablediffusionweb.com 网站"
+      },
+      {
+        "title": "来自 Microsoft Designer 的图像创建器",
+        "url": "https://www.bing.com/images/create?FORM=IRPGEN",
+        "desc": "bing.com 网站"
+      },
+      {
+        "title": "豆包 - 字节跳动旗下 AI 智能助手",
+        "url": "https://www.doubao.com/chat/?channel=baidu_sem&source=dbweb_sem_pinz_pinp_zongh_tongy_tongy_ocpc_faxx&keywordid=1299478036963&ad_platform_id=baidusearch_lead&account_id=62746170&a_planid=738862125&a_unitid=13128468485&a_keywordid=1299478036963&a_creative=133699903711&a_matchtype=1&a_dongtai=0&a_trig_flag=nm&a_crowdid=0&a_kw_enc_utf8=%E8%B1%86%E5%8C%85&ug_semver=v2.0.0&bd_vid=9288037855545795799",
+        "desc": "doubao.com 网站"
+      },
+      {
+        "title": "AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全",
+        "url": "https://ai-bot.cn/#term-2",
+        "desc": "ai-bot.cn 网站"
+      },
+      {
+        "title": "Fish Audio: The Best & Free Generative AI Text To Speech & Voice Cloning",
+        "url": "https://fish.audio/zh-CN/text-to-speech/?modelId=f77c47b15a5a42019629ca18c2e0eb9a&version=speech-1.5",
+        "desc": "fish.audio 网站"
+      },
+      {
+        "title": "GPT",
+        "url": "https://chatgpt.com/?model=auto",
+        "desc": "chatgpt.com 网站"
+      },
+      {
+        "title": "LLM Rankings | OpenRouter",
+        "url": "https://openrouter.ai/rankings?view=trending",
+        "desc": "openrouter.ai 网站"
+      },
+      {
+        "title": "GPU容器解决方案_GPU服务器租用_白山云",
+        "url": "https://ai.baishan.com/website/model-api?bd_vid=7905297276459212475",
+        "desc": "ai.baishan.com 网站"
+      },
+      {
+        "title": "Bing",
+        "url": "https://www.bing.com/?mkt=en-us",
+        "desc": "bing.com 网站"
+      },
+      {
+        "title": "Best ChatGPT Prompts & AI Prompts Community - FlowGPT",
+        "url": "https://flowgpt.com/",
+        "desc": "flowgpt.com 网站"
+      },
+      {
+        "title": "Deepart Generator | FREE AI Art Generator",
+        "url": "https://www.artvy.ai/free-ai-art-generator/deepart",
+        "desc": "artvy.ai 网站"
+      }
     ]
   },
   {
     "category": "开发工具",
     "icon": "💻",
     "items": [
-      { "title": "MDN Web 文档", "url": "https://developer.mozilla.org/zh-CN/docs/Learn", "desc": "Web 开发权威学习指南" },
-      { "title": "MyBatis 官网", "url": "https://mybatis.net.cn/", "desc": "Java 持久层框架中文文档" },
-      { "title": "Java SE 11 文档", "url": "https://www.runoob.com/manual/jdk11api/index.html", "desc": "JDK 11 API 中文手册" },
-      { "title": "Django 文档", "url": "https://docs.djangoproject.com/zh-hans/5.0/", "desc": "Django 框架官方中文文档" },
-      { "title": "MongoDB 安装指南", "url": "https://www.cnblogs.com/TM0831/p/10606624.html", "desc": "Windows 平台 MongoDB 安装教程" },
-      { "title": "Redis 安装指南", "url": "https://blog.csdn.net/qq_40897648/article/details/83819544", "desc": "Windows 系统安装 Redis" }
+      {
+        "title": "MDN Web 文档",
+        "url": "https://developer.mozilla.org/zh-CN/docs/Learn",
+        "desc": "Web开发权威学习指南"
+      },
+      {
+        "title": "MyBatis中文网",
+        "url": "https://mybatis.net.cn/",
+        "desc": "Java持久层框架中文文档"
+      },
+      {
+        "title": "Java SE 11 文档",
+        "url": "https://www.runoob.com/manual/jdk11api/index.html",
+        "desc": "JDK 11 API中文手册"
+      },
+      {
+        "title": "Django文档",
+        "url": "https://docs.djangoproject.com/zh-hans/5.0/",
+        "desc": "Django框架官方中文文档"
+      },
+      {
+        "title": "MongoDB安装",
+        "url": "https://www.cnblogs.com/TM0831/p/10606624.html",
+        "desc": "Windows平台MongoDB安装教程"
+      },
+      {
+        "title": "Redis安装",
+        "url": "https://blog.csdn.net/qq_40897648/article/details/83819544",
+        "desc": "Windows系统安装Redis"
+      },
+      {
+        "title": "Thymeleaf语法",
+        "url": "https://www.cnblogs.com/itdragon/archive/2018/04/13/8724291.html",
+        "desc": "Thymeleaf3语法详解"
+      },
+      {
+        "title": "Maven Repository",
+        "url": "https://mvnrepository.com/",
+        "desc": "Maven依赖搜索"
+      },
+      {
+        "title": "JavaScript文档",
+        "url": "https://www.w3cschool.cn/javascript/dict",
+        "desc": "JavaScript官方文档"
+      },
+      {
+        "title": "MySQL多版本安装",
+        "url": "https://blog.csdn.net/Always206/article/details/123694815",
+        "desc": "Windows同时安装MySQL5和MySQL8"
+      },
+      {
+        "title": "MySQL权限问题",
+        "url": "https://blog.csdn.net/zhengkanzhuang6120/article/details/119868006",
+        "desc": "解决MySQL Access denied问题"
+      },
+      {
+        "title": "阿里云OSS",
+        "url": "https://help.aliyun.com/zh/oss/developer-reference/overview-21",
+        "desc": "对象存储SDK参考文档"
+      },
+      {
+        "title": "腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer",
+        "desc": "腾讯云开发者平台"
+      },
+      {
+        "title": "JWT",
+        "url": "https://jwt.io/",
+        "desc": "JSON Web Tokens"
+      },
+      {
+        "title": "YApi",
+        "url": "https://hellosean1025.github.io/yapi/index.html",
+        "desc": "接口管理平台"
+      },
+      {
+        "title": "Cron表达式生成器",
+        "url": "https://qqe2.com/dev/cron",
+        "desc": "在线Cron表达式生成器"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "desc": "代码托管平台"
+      },
+      {
+        "title": "Gitee",
+        "url": "https://gitee.com/",
+        "desc": "基于Git的代码托管平台"
+      },
+      {
+        "title": "HarmonyOS",
+        "url": "https://developer.harmonyos.com/cn/docs/documentation/doc-guides/project_overview-0000001053822398",
+        "desc": "HarmonyOS工程介绍"
+      },
+      {
+        "title": "Roboflow",
+        "url": "https://public.roboflow.com/",
+        "desc": "计算机视觉数据集"
+      },
+      {
+        "title": "CSDN",
+        "url": "https://www.csdn.net/",
+        "desc": "专业开发者社区"
+      },
+      {
+        "title": "华为云论坛",
+        "url": "https://bbs.huaweicloud.com/forum/",
+        "desc": "云计算技术论坛"
+      },
+      {
+        "title": "顶尖架构师栈",
+        "url": "https://arcstack.top/",
+        "desc": "架构师技术社区"
+      },
+      {
+        "title": "AutoHotkey",
+        "url": "https://zj1d.gitee.io/autohotkey/docs/AutoHotkey.htm",
+        "desc": "AutoHotkey v2快速参考"
+      },
+      {
+        "title": "Termux笔记",
+        "url": "https://py.loafing.cn/p/Termux-notes/",
+        "desc": "Termux使用笔记"
+      },
+      {
+        "title": "无线网络安全",
+        "url": "https://www.develop.fan/Static/course/detail?id=0036061e5b3b4c179694118cd11cdd1b",
+        "desc": "Wi-Fi破解与WPA3安全"
+      },
+      {
+        "title": "VMware无线网卡",
+        "url": "https://docs.pingcode.com/baike/3372464",
+        "desc": "虚拟机识别无线网卡"
+      },
+      {
+        "title": "NATAPP",
+        "url": "https://natapp.cn/tunnel/lists",
+        "desc": "内网穿透工具"
+      },
+      {
+        "title": "支付宝开放平台",
+        "url": "https://auth.alipay.com/login/ant_sso_index.htm",
+        "desc": "支付宝沙箱环境"
+      },
+      {
+        "title": "ZeroTier",
+        "url": "https://my.zerotier.com/network/88503383907b6649",
+        "desc": "虚拟局域网"
+      },
+      {
+        "title": "GitHub文件加速",
+        "url": "https://gh.api.99988866.xyz/",
+        "desc": "GitHub文件加速下载"
+      },
+      {
+        "title": "Django web开发",
+        "url": "https://blog.csdn.net/qq_43139145/article/details/128073474",
+        "desc": "Django前端开发教程"
+      },
+      {
+        "title": "宝塔Linux面板",
+        "url": "https://160.202.251.112:42566/site/java",
+        "desc": "160.202.251.112:42566 网站"
+      },
+      {
+        "title": "渠道支撑系统",
+        "url": "https://khxt.zzkj66.com/login",
+        "desc": "khxt.zzkj66.com 网站"
+      },
+      {
+        "title": "橙证新闻资讯-电子数据保护平台",
+        "url": "https://czkj66.com/?scroll=0#/news-informationView",
+        "desc": "czkj66.com 网站"
+      },
+      {
+        "title": "第三方应用",
+        "url": "https://work.weixin.qq.com/wework_admin/frame#/apps/modApiApp/5629503190764203",
+        "desc": "work.weixin.qq.com 网站"
+      },
+      {
+        "title": "用户登录—华为云",
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https://console.huaweicloud.com/dns/#/login",
+        "desc": "auth.huaweicloud.com 网站"
+      },
+      {
+        "title": "数字证书管理服务管理控制台",
+        "url": "https://yundun.console.aliyun.com/?spm=5176.12818093.console-base_micro-browser.dtab-product_cas.48d62cc9etFKEN&p=cas&scm=20140722.S_cas._.ID_cas-RL_ssl-LOC_console_console-OR_ser-V_4-P0_0#/certExtend/free/cn-hangzhou?adSearchParams=%7B%22CurrentPage%22%3A1%2C%22Keyword%22%3A%22%22%2C%22BrandId%22%3A%22%22%2C%22ShowSize%22%3A10%2C%22StatusCode%22%3A%22issued%22%7D",
+        "desc": "阿里云 云服务"
+      },
+      {
+        "title": "信用+创意溯源商城",
+        "url": "https://shopm.gtc-dcc.com/",
+        "desc": "shopm.gtc-dcc.com 网站"
+      },
+      {
+        "title": "后台管理平台",
+        "url": "https://cni450404.webportal.top/",
+        "desc": "cni450404.webportal.top 网站"
+      },
+      {
+        "title": "总览 - 控制台",
+        "url": "https://console2.ctyun.cn/ecm/?agencyId=526fda5ddfac46f7a509f03300328d3a®ion=cn-gdgz1&locale=zh-cn#/ecs/dashboard",
+        "desc": "console2.ctyun.cn 网站"
+      },
+      {
+        "title": "互联网+大学",
+        "url": "https://daxue.sankuai.com/personal.html#!/square/class/detail/task?task_id=167503&task_type=2&series_id=0&id=13298&type=1&isAutoplay=1",
+        "desc": "daxue.sankuai.com 网站"
+      },
+      {
+        "title": "【手机点餐】-手机点餐设置 - 学城",
+        "url": "https://km.sankuai.com/collabpage/2235069247",
+        "desc": "km.sankuai.com 网站"
+      },
+      {
+        "title": "使用Gitee多人项目协作开发的流程实例_gitee可以只开放部分目录给协作者吗-CSDN博客",
+        "url": "https://blog.csdn.net/u013763970/article/details/103952921",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "NODEJS卸载或安装出现Invalid drive错误_控制面板卸载node显示无效的磁盘-CSDN博客",
+        "url": "https://blog.csdn.net/yangruini_love/article/details/91364976",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "Vue安装及环境配置、开发工具_vue需要安装环境吗-CSDN博客",
+        "url": "https://blog.csdn.net/dream_summer/article/details/108867317",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "Visual Studio Code的下载安装、快捷键以及插件离线安装_visual studio code下载教程-CSDN博客",
+        "url": "https://blog.csdn.net/dream_summer/article/details/108872293",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "SpringBoot 教程 - SpringBoot教程 - 菜鸟教程",
+        "url": "https://www.cainiaojc.com/springboot/springboot-tutorial.html",
+        "desc": "cainiaojc.com 网站"
+      },
+      {
+        "title": "h5-Dooring/zh.md at master · MrXujiang/h5-Dooring · GitHub",
+        "url": "https://github.com/MrXujiang/h5-Dooring/blob/master/zh.md",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "组织机构数据隔离（上级可看下级，同级屏蔽）的高效实现思路 - 五维思考 - 博客园",
+        "url": "https://www.cnblogs.com/zhaoshujie/p/13684951.html",
+        "desc": "博客园 技术社区"
+      },
+      {
+        "title": "自建应用与第三方应用的对接 - 文档 - 企业微信开发者中心",
+        "url": "https://developer.work.weixin.qq.com/document/path/95884",
+        "desc": "developer.work.weixin.qq.com 网站"
+      },
+      {
+        "title": "Navicat 无法使用 root 用户连接 mysql_navicat没有root-CSDN博客",
+        "url": "https://blog.csdn.net/LanguageScript/article/details/121036500",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "mysql drop表以后恢复数据 - 二娃的园子 - 博客园",
+        "url": "https://www.cnblogs.com/zhaoyongjie-z/p/12391107.html",
+        "desc": "博客园 技术社区"
+      },
+      {
+        "title": "Wegic | 您的AI网站团队：设计师、开发者、管理者",
+        "url": "https://wegic.ai/zh-cn",
+        "desc": "wegic.ai 网站"
+      },
+      {
+        "title": "微信授权登录后端java接口_mob64ca12e98e58的技术博客_51CTO博客",
+        "url": "https://blog.51cto.com/u_16213403/12034507",
+        "desc": "blog.51cto.com 网站"
+      }
     ]
   },
   {
     "category": "机器学习",
     "icon": "🧠",
     "items": [
-      { "title": "CelebA 数据集", "url": "http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html", "desc": "大规模人脸属性数据集" },
-      { "title": "Pytorch 模型保存与加载", "url": "https://zhuanlan.zhihu.com/p/38056115", "desc": "知乎教程" },
-      { "title": "GAN 教程", "url": "https://github.com/makeyourownneuralnetwork/gan", "desc": "Make Your Own GAN 配套代码" },
-      { "title": "Jupyter Nbextensions", "url": "https://blog.csdn.net/qq_43139145/article/details/128073474", "desc": "Jupyter 插件功能配置" },
-      { "title": "Anaconda 环境管理", "url": "https://blog.csdn.net/weixin_52459924/article/details/124568123", "desc": "Conda 创建/激活/删除环境" }
+      {
+        "title": "CelebA数据集",
+        "url": "http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html",
+        "desc": "大规模人脸属性数据集"
+      },
+      {
+        "title": "PyTorch模型保存",
+        "url": "https://zhuanlan.zhihu.com/p/38056115",
+        "desc": "PyTorch保存与加载模型"
+      },
+      {
+        "title": "GAN教程",
+        "url": "https://github.com/makeyourownneuralnetwork/gan",
+        "desc": "Make Your Own GAN"
+      },
+      {
+        "title": "Jupyter插件",
+        "url": "https://dataartist.blog.csdn.net/article/details/106124041",
+        "desc": "Nbextensions插件功能大全"
+      },
+      {
+        "title": "Anaconda环境管理",
+        "url": "https://blog.csdn.net/weixin_52459924/article/details/124568123",
+        "desc": "Conda创建/激活/删除环境"
+      },
+      {
+        "title": "虚拟环境删除",
+        "url": "https://blog.csdn.net/qq_44411601/article/details/105731627",
+        "desc": "删除虚拟环境及Jupyter内核"
+      },
+      {
+        "title": "泛函分析",
+        "url": "https://baike.baidu.com/item/泛函分析/4151",
+        "desc": "百度百科"
+      },
+      {
+        "title": "BasicSR",
+        "url": "https://github.com/XPixelGroup/BasicSR",
+        "desc": "开源图像/视频复原工具箱"
+      },
+      {
+        "title": "Real-ESRGAN",
+        "url": "https://github.com/xinntao/Real-ESRGAN",
+        "desc": "AI图像/视频超分辨率修复"
+      },
+      {
+        "title": "PaddlePedia",
+        "url": "https://paddlepedia.readthedocs.io/en/latest/index.html",
+        "desc": "深度学习百科及面试资源"
+      },
+      {
+        "title": "GAN发展研究综述",
+        "url": "https://blog.csdn.net/zhuoqingjoking97298/article/details/122587727",
+        "desc": "生成对抗网络研究"
+      }
     ]
   },
   {
-    "category": "平台账号",
-    "icon": "🌐",
+    "category": "学习资源",
+    "icon": "📚",
     "items": [
-      { "title": "小红书", "url": "https://www.xiaohongshu.com/explore", "desc": "社交分享平台" },
-      { "title": "小红书创作平台", "url": "https://creator.xiaohongshu.com/", "desc": "小红书创作者后台" },
-      { "title": "抖音", "url": "https://www.douyin.com/user/self", "desc": "短视频平台个人主页" },
-      { "title": "视频号助手", "url": "https://channels.weixin.qq.com/", "desc": "微信视频号内容管理" },
-      { "title": "大疆 DJI", "url": "https://www.dji.com/cn", "desc": "大疆创新官方网站" },
-      { "title": "香港格價網", "url": "https://m.price.com.hk/", "desc": "香港 No.1 格价平台" }
+      {
+        "title": "中国大学MOOC",
+        "url": "https://www.icourse163.org/",
+        "desc": "国家精品课程在线学习平台"
+      },
+      {
+        "title": "智慧树",
+        "url": "https://onlineweb.zhihuishu.com/onlinestuh5",
+        "desc": "在线学堂"
+      },
+      {
+        "title": "超星学习通",
+        "url": "https://i.chaoxing.com/base",
+        "desc": "个人空间"
+      },
+      {
+        "title": "研招网",
+        "url": "https://yz.chsi.com.cn/",
+        "desc": "中国研究生招生信息网"
+      },
+      {
+        "title": "研可岸择校",
+        "url": "https://www.kaoyansou.cn/f/sc/index.html",
+        "desc": "考研择校平台"
+      },
+      {
+        "title": "软科排名",
+        "url": "https://www.shanghairanking.cn/rankings/bcur/2023",
+        "desc": "中国大学排名"
+      },
+      {
+        "title": "U校园",
+        "url": "https://u.unipus.cn/user/student?school_id=10059",
+        "desc": "英语学习平台"
+      },
+      {
+        "title": "新视野大学英语答案",
+        "url": "https://blog.csdn.net/qq_43472877/article/details/90404877",
+        "desc": "读写教程4课后答案"
+      },
+      {
+        "title": "新视野大学英语视听说答案",
+        "url": "https://zhuanlan.zhihu.com/p/491427639",
+        "desc": "视听说思政数字课程4答案"
+      },
+      {
+        "title": "Overleaf",
+        "url": "https://cn.overleaf.com/",
+        "desc": "在线LaTeX编辑器"
+      },
+      {
+        "title": "学术搜索",
+        "url": "https://scholar.chongbuluo.com/",
+        "desc": "站在巨人的肩膀上"
+      },
+      {
+        "title": "中国知网",
+        "url": "https://www.cnki.net/",
+        "desc": "学术论文数据库"
+      },
+      {
+        "title": "PubScholar",
+        "url": "https://pubscholar.cn/",
+        "desc": "公益学术平台"
+      },
+      {
+        "title": "Sci-Hub",
+        "url": "https://www.scihub.net.cn/",
+        "desc": "科研学术网址导航"
+      },
+      {
+        "title": "英语真题在线",
+        "url": "https://zhenti.burningvocabulary.com/",
+        "desc": "英语真题在线练习"
+      },
+      {
+        "title": "英语外刊阅读库",
+        "url": "https://flowus.cn/share/386e36bb-e39f-45ea-bc61-0d324090f20d",
+        "desc": "共224篇文章"
+      },
+      {
+        "title": "大学生知识星球",
+        "url": "https://link3.cc/moonke",
+        "desc": "知识分享平台"
+      },
+      {
+        "title": "Similarsites",
+        "url": "https://cn.similarsites.com/",
+        "desc": "探索替代网站"
+      },
+      {
+        "title": "研知",
+        "url": "https://service.kingbooks.com.cn/kysy/cinfo?id=109",
+        "desc": "研究生学习资源"
+      },
+      {
+        "title": "硕士专业目录",
+        "url": "https://yz.chsi.com.cn/zsml/mobi/query0Action.do",
+        "desc": "研招网专业查询"
+      },
+      {
+        "title": "1 | Chapter 2 - Listening to the Stars - MangaDex",
+        "url": "https://mangadex.org/chapter/edc3d5a5-cb5a-4adb-8604-0edab271ef72/1",
+        "desc": "mangadex.org 网站"
+      },
+      {
+        "title": "找一本书 - LEXILE & QUANTILE HUB",
+        "url": "https://hub.lexile.com/find-a-book/",
+        "desc": "hub.lexile.com 网站"
+      },
+      {
+        "title": "Listopia | Goodreads",
+        "url": "https://www.goodreads.com/list?ref=nav_brws_lists",
+        "desc": "goodreads.com 网站"
+      },
+      {
+        "title": "Jiumo Search 鸠摩搜索 - 文档搜索引擎",
+        "url": "https://www.jiumodiary.com/#",
+        "desc": "jiumodiary.com 网站"
+      },
+      {
+        "title": "绝望的主妇第1季第1集台词 - 简书",
+        "url": "https://www.jianshu.com/p/0bae5e9d93b6",
+        "desc": "jianshu.com 网站"
+      },
+      {
+        "title": "Blazing new trails | 7th grade reading and vocab | Khan Academy",
+        "url": "https://www.khanacademy.org/ela/7th-grade-reading-and-vocabulary/x7538838f96af3430:blazing-new-trails",
+        "desc": "khanacademy.org 网站"
+      },
+      {
+        "title": "英文漫画 | 网址分类目录 | 英语学习资源导航",
+        "url": "https://en.knowledgefxg.com/favorites/%e8%8b%b1%e6%96%87%e6%bc%ab%e7%94%bb/",
+        "desc": "en.knowledgefxg.com 网站"
+      },
+      {
+        "title": "Shana Project",
+        "url": "https://www.shanaproject.com/",
+        "desc": "shanaproject.com 网站"
+      },
+      {
+        "title": "Investors remain chipper about Nvidia • FT News Briefing",
+        "url": "https://open.spotify.com/episode/5TcxZCUVdhkWW54ZS85f3y",
+        "desc": "open.spotify.com 网站"
+      },
+      {
+        "title": "排行榜﻿英语话题 - FreeMdict Forum",
+        "url": "https://forum.freemdict.com/tag/%EF%BB%BF%E8%8B%B1%E8%AF%AD/l/top",
+        "desc": "forum.freemdict.com 网站"
+      },
+      {
+        "title": "Qwerty Learner 官网 — 为键盘工作者设计的单词与肌肉记忆锻炼软件",
+        "url": "https://qwerty.kaiyi.cool/",
+        "desc": "qwerty.kaiyi.cool 网站"
+      },
+      {
+        "title": "Number the Stars - Koodo Reader",
+        "url": "https://web.koodoreader.com/#/mobi/1758003678951?title=Number%20the%20Stars&file=1758003678951",
+        "desc": "web.koodoreader.com 网站"
+      },
+      {
+        "title": "Byrdie - Insider Beauty Tips, Product Reviews & Makeup Trends",
+        "url": "https://www.byrdie.com/",
+        "desc": "byrdie.com 网站"
+      },
+      {
+        "title": "Nobody",
+        "url": "https://www.cineby.app/movie/615457",
+        "desc": "cineby.app 网站"
+      },
+      {
+        "title": "Vidhub",
+        "url": "https://vidhub.me/",
+        "desc": "vidhub.me 网站"
+      },
+      {
+        "title": "如何提升代码质量",
+        "url": "https://mp.weixin.qq.com/s/ICTcjAz1pc0kMRcsXY_AxQ",
+        "desc": "mp.weixin.qq.com 网站"
+      },
+      {
+        "title": "Welcome to Wang Dingwei’s Translations! — Chinese Translations 0.1 documentation",
+        "url": "https://translations.readthedocs.io/en/latest/index.html",
+        "desc": "translations.readthedocs.io 网站"
+      },
+      {
+        "title": "10x 程序员工作法",
+        "url": "https://time.geekbang.org/column/intro/100022301?code=NGH8Zy2NiSZNTEOvJCNd8hKQJanUEtjo6KFL59AHoVQ%3D",
+        "desc": "time.geekbang.org 网站"
+      },
+      {
+        "title": "10x程序员工作法 - 极客时间文档",
+        "url": "https://uaxe.github.io/geektime-docs/%E7%AE%A1%E7%90%86-%E6%88%90%E9%95%BF/10x%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B7%A5%E4%BD%9C%E6%B3%95/10x%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B7%A5%E4%BD%9C%E6%B3%95/",
+        "desc": "uaxe.github.io 网站"
+      },
+      {
+        "title": "TeachYourselfCS-CN/TeachYourselfCS-CN.md at master · izackwu/TeachYourselfCS-CN",
+        "url": "https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "IoC原理 - Java教程 - 廖雪峰的官方网站",
+        "url": "https://liaoxuefeng.com/books/java/spring/ioc/basic/index.html",
+        "desc": "liaoxuefeng.com 网站"
+      },
+      {
+        "title": "Index - 极客时间文档",
+        "url": "https://uaxe.github.io/geektime-docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/",
+        "desc": "uaxe.github.io 网站"
+      },
+      {
+        "title": "我的极客时间",
+        "url": "http://8.141.6.243:8090/task/list",
+        "desc": "8.141.6.243:8090 网站"
+      },
+      {
+        "title": "Zero2Agent | 从会用 AI 到会开发 Agent",
+        "url": "https://onefly.top/zero2Agent/",
+        "desc": "onefly.top 网站"
+      },
+      {
+        "title": "大模型服务平台百炼控制台",
+        "url": "https://bailian.console.aliyun.com/cn-beijing?tab=model#/api-key",
+        "desc": "阿里云 云服务"
+      },
+      {
+        "title": "鱼皮AI导航｜AI工具提示词大全 - 专业学习资源资讯知识库",
+        "url": "https://ai.codefather.cn/",
+        "desc": "ai.codefather.cn 网站"
+      },
+      {
+        "title": "DeepSeek 开放平台",
+        "url": "https://platform.deepseek.com/usage",
+        "desc": "platform.deepseek.com 网站"
+      },
+      {
+        "title": "awesome-agentic-ai-zh/README.zh-Hans.md at main · WenyuChiou/awesome-agentic-ai-zh",
+        "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh/blob/main/README.zh-Hans.md",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "KimYx0207/AI-Coding-Guide-Zh: Claude Code + OpenClaw + Codex 中文教程 | 36篇完整教程 | 18万字 | 三线学习路径 | 小白到企业实战",
+        "url": "https://github.com/KimYx0207/AI-Coding-Guide-Zh",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "lasywolf/Learn-OpenClaw: Learn agent fundamentals from scratch in one day (about 9 hours)! I wrote this tutorial to show that agents are actually very simple. 零基础一天 （9小时）学完agent！写这个教程就是想告诉大家，Agent其实非常简单！",
+        "url": "https://github.com/lasywolf/Learn-OpenClaw",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "心理科普｜破窗效应：不要轻易打破自己的第一扇窗_事情_人们_结果",
+        "url": "https://m.sohu.com/a/591471718_121119344/?pvid=000115_3w_a",
+        "desc": "m.sohu.com 网站"
+      },
+      {
+        "title": "TalkMe",
+        "url": "https://www.talkme.ai/chat/chatroom?chatType=1&typeName=freeTalk&sceneTopicId=0",
+        "desc": "talkme.ai 网站"
+      },
+      {
+        "title": "DeepL翻译：全世界最准确的翻译",
+        "url": "https://www.deepl.com/translator-mobile",
+        "desc": "deepl.com 网站"
+      },
+      {
+        "title": "2018年12月英语六级真题(第3套) | 英语真题在线",
+        "url": "https://zhenti.burningvocabulary.com/cet6/2018-12/03",
+        "desc": "zhenti.burningvocabulary.com 网站"
+      },
+      {
+        "title": "《弥留之国的爱丽丝第一季》第1集-在线观看全集最新未删减完整版-电视剧-Vidhub视频库",
+        "url": "https://vidhub.tv/vodplay/147342-1-1.html",
+        "desc": "vidhub.tv 网站"
+      },
+      {
+        "title": "TikTok - Make Your Day",
+        "url": "https://www.tiktok.com/",
+        "desc": "tiktok.com 网站"
+      },
+      {
+        "title": "第一财经_专业创造价值",
+        "url": "https://m.yicai.com/",
+        "desc": "m.yicai.com 网站"
+      },
+      {
+        "title": "日本語勉強中（日语自习室）",
+        "url": "https://nya.ink/",
+        "desc": "nya.ink 网站"
+      },
+      {
+        "title": "授受动词「あげる」、「くれる」和「もらう」的具体用法 - いらっしゃい",
+        "url": "https://sayamiku.com/132.html",
+        "desc": "sayamiku.com 网站"
+      },
+      {
+        "title": "動漫 線上看｜KKTV - 與日同步、超多「全部免費」正版新番動漫",
+        "url": "https://www.kktv.me/anime",
+        "desc": "kktv.me 网站"
+      },
+      {
+        "title": "揭秘「おかない」中文：掌握日语中微妙的「必須」表達 | Jinto 神藤日語教室",
+        "url": "https://japanesetalker.cc/%e3%81%8a%e3%81%8b%e3%81%aa%e3%81%84-%e4%b8%ad%e6%96%87",
+        "desc": "japanesetalker.cc 网站"
+      },
+      {
+        "title": "Tokyo Toshokan :: #tokyotosho @ irc.rizon.net :: Torrent Listing",
+        "url": "https://www.tokyotosho.info/index.php",
+        "desc": "tokyotosho.info 网站"
+      },
+      {
+        "title": "Browse :: Nyaa",
+        "url": "https://nyaa.si/",
+        "desc": "nyaa.si 网站"
+      },
+      {
+        "title": "动漫花园资源网-动漫花园镜像站~動漫花園資源網 - 動漫愛好者的自由交流平台",
+        "url": "https://www.dongmanhuayuan.com/",
+        "desc": "dongmanhuayuan.com 网站"
+      },
+      {
+        "title": "改图宝 - 在线修改照片大小尺寸工具",
+        "url": "https://www.gaitubao.com/",
+        "desc": "gaitubao.com 网站"
+      },
+      {
+        "title": "中日双语字幕 百度云网盘资源合集 - 第13页 - 搜网盘(www.SWangPan.com)",
+        "url": "https://www.swangpan.com/tag/%E4%B8%AD%E6%97%A5%E5%8F%8C%E8%AF%AD%E5%AD%97%E5%B9%95/pn13.html",
+        "desc": "swangpan.com 网站"
+      }
+    ]
+  },
+  {
+    "category": "实用工具",
+    "icon": "🔧",
+    "items": [
+      {
+        "title": "MP3 Cut",
+        "url": "https://mp3cut.net/cn/",
+        "desc": "在线MP3剪辑工具"
+      },
+      {
+        "title": "5sing音乐",
+        "url": "https://5sing.kugou.com/",
+        "desc": "原创音乐社区"
+      },
+      {
+        "title": "二次元图库API",
+        "url": "https://iw233.cn/",
+        "desc": "二次元图片API"
+      },
+      {
+        "title": "在线转换",
+        "url": "https://www.aconvert.com/cn/",
+        "desc": "文档/图像/视频/音频转换"
+      },
+      {
+        "title": "360AI云盘",
+        "url": "https://www.yunpan.com/file/index",
+        "desc": "新文件管理"
+      },
+      {
+        "title": "咸虾米API",
+        "url": "https://api.qingnian8.com/apis/",
+        "desc": "API接口库"
+      },
+      {
+        "title": "维普毕业论文",
+        "url": "https://vgmsm.fanyu.com/admin/index",
+        "desc": "毕业论文管理系统"
+      },
+      {
+        "title": "AI图标库",
+        "url": "https://igoutu.cn/icons/set/ai",
+        "desc": "免费下载PNG、SVG图标"
+      },
+      {
+        "title": "uniCloud",
+        "url": "https://unicloud.dcloud.net.cn/",
+        "desc": "服务空间"
+      },
+      {
+        "title": "HBuilderX",
+        "url": "https://hx.dcloud.net.cn/README",
+        "desc": "HBuilderX文档"
+      },
+      {
+        "title": "uni-app",
+        "url": "https://uniapp.dcloud.net.cn/",
+        "desc": "跨端开发框架"
+      },
+      {
+        "title": "uView",
+        "url": "https://vkuviewdoc.fsq.pub/components/install.html",
+        "desc": "Vue3 UI框架"
+      },
+      {
+        "title": "node.js安装",
+        "url": "https://blog.csdn.net/xuezhe5212/article/details/138576464",
+        "desc": "Windows系统安装教程"
+      },
+      {
+        "title": "TortoiseGit",
+        "url": "https://blog.csdn.net/weixin_44299027/article/details/121178817",
+        "desc": "Git客户端安装配置"
+      },
+      {
+        "title": "软件项目管理",
+        "url": "https://blog.csdn.net/ping_lvy/article/details/103788824",
+        "desc": "数字化校园学工信息系统"
+      },
+      {
+        "title": "ProcessOn",
+        "url": "https://www.processon.com/",
+        "desc": "在线思维导图流程图"
+      },
+      {
+        "title": "ioDraw",
+        "url": "https://www.iodraw.com/",
+        "desc": "免费在线画流程图、思维导图"
+      },
+      {
+        "title": "言溪题库",
+        "url": "https://tk.enncy.cn/user/dashboard",
+        "desc": "大学生网课作业搜索网站"
+      },
+      {
+        "title": "PDF24 Tools",
+        "url": "https://tools.pdf24.org/zh/",
+        "desc": "免费在线PDF工具"
+      },
+      {
+        "title": "照片搜索",
+        "url": "https://saucenao.com/",
+        "desc": "以图搜图"
+      },
+      {
+        "title": "电子阅读器",
+        "url": "https://koodo.960960.xyz/zh",
+        "desc": "在线电子阅读器"
+      },
+      {
+        "title": "十六进制编辑器",
+        "url": "https://hexed.it/",
+        "desc": "基于浏览器的十六进制编辑器"
+      },
+      {
+        "title": "计算机工具大全",
+        "url": "https://www.toprender.com/forum-286-1.html",
+        "desc": "计算机工具资源"
+      },
+      {
+        "title": "菜鸟工具",
+        "url": "https://c.runoob.com/",
+        "desc": "不止于工具"
+      },
+      {
+        "title": "MikuTools",
+        "url": "https://tools.miku.ac/",
+        "desc": "轻量工具集合"
+      },
+      {
+        "title": "FlowerCloud",
+        "url": "https://huacloud.net/product.html",
+        "desc": "机场服务"
+      },
+      {
+        "title": "蓝帆云",
+        "url": "https://lanfancloud.net/user/shop",
+        "desc": "机场商店"
+      },
+      {
+        "title": "U校园新视野大学英语（第三版）读写思政数字课程4答案 - 知乎",
+        "url": "https://zhuanlan.zhihu.com/p/491426697",
+        "desc": "知乎 问答社区"
+      },
+      {
+        "title": "软件项目管理课程设计-数字化校园学工信息系统-CSDN博客",
+        "url": "https://blog.csdn.net/ping_lvy/article/details/103788824?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170072296316800182136076%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170072296316800182136076&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-103788824-null-null.142^v96^pc_search_result_base4&utm_term=%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1&spm=1018.2226.3001.4187",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "星火大模型WebSocket调用API常见报错和处理——在“基于星火大模型的群聊对话分角色要素提取挑战赛”中遇到的_hmac signature cannot be verified: fail to retriev-CSDN博客",
+        "url": "https://blog.csdn.net/weixin_46490859/article/details/140272831",
+        "desc": "CSDN 技术社区"
+      },
+      {
+        "title": "控制台-讯飞开放平台",
+        "url": "https://console.xfyun.cn/services/bm4",
+        "desc": "console.xfyun.cn 网站"
+      },
+      {
+        "title": "360AI云盘 - 新文件管理",
+        "url": "https://www.yunpan.com/file/index#/fileManage/my/file/%2F",
+        "desc": "yunpan.com 网站"
+      },
+      {
+        "title": "惠州学院一网通办",
+        "url": "https://ywtb.hzu.edu.cn/index.html#/",
+        "desc": "ywtb.hzu.edu.cn 网站"
+      },
+      {
+        "title": "教学管理信息服务平台",
+        "url": "https://jwxt.hzu.edu.cn/xtgl/index_initMenu.html?jsdm=&_t=1687937252240",
+        "desc": "jwxt.hzu.edu.cn 网站"
+      },
+      {
+        "title": "个人空间",
+        "url": "https://i.chaoxing.com/base?vflag=true&fid=2002&backUrl=https://hzxy2023.mh.chaoxing.com",
+        "desc": "i.chaoxing.com 网站"
+      },
+      {
+        "title": "Online MP3 Cutter - Cut Songs, Make Ringtones",
+        "url": "https://mp3cut.net/cn/#google_vignette",
+        "desc": "mp3cut.net 网站"
+      },
+      {
+        "title": "5sing音乐",
+        "url": "https://5sing.kugou.com/index.html",
+        "desc": "5sing.kugou.com 网站"
+      },
+      {
+        "title": "研可岸择校",
+        "url": "https://www.kaoyansou.cn/f/sc/index.html#/school",
+        "desc": "kaoyansou.cn 网站"
+      },
+      {
+        "title": "研招网",
+        "url": "https://yz.chsi.com.cn/wap/",
+        "desc": "yz.chsi.com.cn 网站"
+      },
+      {
+        "title": "商店 — 蓝帆云",
+        "url": "https://lanfancloud.net/user/shop#",
+        "desc": "lanfancloud.net 网站"
+      },
+      {
+        "title": "Flirt4Free - Flirt for Free with live Cam Girls",
+        "url": "https://www.flirt4free.com/live/girls/?show_modal=register&utm_medium=510&utm_content=72415260&utm_source=pop&utm_campaign=10072316&utm_term=xvideos.com",
+        "desc": "flirt4free.com 网站"
+      },
+      {
+        "title": "搜索结果 绝望主妇_天天美剧",
+        "url": "https://www.meijuq.com/?s=%E7%BB%9D%E6%9C%9B%E4%B8%BB%E5%A6%87",
+        "desc": "meijuq.com 网站"
+      },
+      {
+        "title": "99.9:刑事专业律师 电影版 (2021) 在线观看 - LenTV",
+        "url": "https://www.len.tv/movies/24600",
+        "desc": "len.tv 网站"
+      },
+      {
+        "title": "黑天鹅-免费在线观看-爱壹帆",
+        "url": "https://m.iyf.tv/play/K7x2VFBXtx5",
+        "desc": "m.iyf.tv 网站"
+      },
+      {
+        "title": "浙江省公共图书馆资源服务门户",
+        "url": "http://zjisa.zjlib.cn/home/zy_home.jsp?li_id=1",
+        "desc": "zjisa.zjlib.cn 网站"
+      },
+      {
+        "title": "英语外刊阅读库 共224篇文章",
+        "url": "https://flowus.cn/share/386e36bb-e39f-45ea-bc61-0d324090f20d?promotionChannel=BZ_zcl_20",
+        "desc": "flowus.cn 网站"
+      },
+      {
+        "title": "rutracker.org",
+        "url": "https://rutracker.org/forum/login.php?redirect=tracker.php?nm=av",
+        "desc": "rutracker.org 网站"
+      },
+      {
+        "title": "昆特牌最新卡组-昆特牌新版本卡组-昆特牌平民卡组-昆特牌T1卡组-昆特牌天梯卡组-旅法师营地",
+        "url": "https://www.iyingdi.com/web/tools/gwent/userdecks/deckdetail/243750?btypes=home",
+        "desc": "iyingdi.com 网站"
+      },
+      {
+        "title": "SIVR-226 - Online Streaming And Download - 【VR】アナタは寝てるだけ。河北彩花が迫ってくる天井特化3シチュエーション",
+        "url": "https://jvrlibrary.com/zh/jvr?id=SIVR-226",
+        "desc": "jvrlibrary.com 网站"
+      },
+      {
+        "title": "xHamster 的免费色情视频和性爱视频管",
+        "url": "https://zh.xhamster.com/",
+        "desc": "zh.xhamster.com 网站"
+      },
+      {
+        "title": "Vr Porn - Virtual Reality & Vr Japanese Videos - SpankBang",
+        "url": "https://spankbang.com/s/vr/",
+        "desc": "spankbang.com 网站"
+      },
+      {
+        "title": "萌鸢阁–永远追随的小站",
+        "url": "https://www.moeacg.shop/",
+        "desc": "moeacg.shop 网站"
+      },
+      {
+        "title": "大千视界_打驴动漫「无广告」所有樱花动漫番剧免费看",
+        "url": "https://www.dqsj.top/",
+        "desc": "dqsj.top 网站"
+      },
+      {
+        "title": "AGE动漫",
+        "url": "http://agedm1.com/",
+        "desc": "agedm1.com 网站"
+      },
+      {
+        "title": "番剧在线 | C站-CliCli",
+        "url": "https://clicli.com.cn/favorites/fanju",
+        "desc": "clicli.com.cn 网站"
+      },
+      {
+        "title": "琉璃神社 ★ HACG.me | 最新的ACG资讯 分享同人动漫的快乐",
+        "url": "https://www.hacg.mom/wp/",
+        "desc": "hacg.mom 网站"
+      },
+      {
+        "title": "高清番剧在线看-番茄动漫",
+        "url": "https://www.fqfun.com/",
+        "desc": "fqfun.com 网站"
+      },
+      {
+        "title": "茶杯狐 Cupfox - 努力让找电影变得简单",
+        "url": "https://cupfox.app/?ref=clicli.com.cn",
+        "desc": "cupfox.app 网站"
+      },
+      {
+        "title": "HDmoli - 高品质在线影视",
+        "url": "https://www.hdmoli.com/",
+        "desc": "hdmoli.com 网站"
+      },
+      {
+        "title": "CliCli动漫 - CliCli(゜-゜)つロ 干杯~",
+        "url": "https://www.clicli.wang/?ref=clicli.com.cn",
+        "desc": "clicli.wang 网站"
+      },
+      {
+        "title": "Anime1.me 動畫線上看 – 上百部動漫免費線上看！",
+        "url": "https://anime1.me/",
+        "desc": "anime1.me 网站"
+      },
+      {
+        "title": "OMOFun动漫-O站",
+        "url": "https://omofunw.top/",
+        "desc": "omofunw.top 网站"
+      },
+      {
+        "title": "Anime Garden 動漫花園資源網第三方镜像站",
+        "url": "https://garden.breadio.wiki/",
+        "desc": "garden.breadio.wiki 网站"
+      },
+      {
+        "title": "peko.love - 佩可爱动漫 - 佩可爱动漫",
+        "url": "https://pekolove.com/",
+        "desc": "pekolove.com 网站"
+      },
+      {
+        "title": "咕咕番 - 在线日漫",
+        "url": "https://www.gugu3.com/",
+        "desc": "gugu3.com 网站"
+      },
+      {
+        "title": "girigiri愛動漫~just a little love~Σ(っ °Д °;)っ∇讓世界更萌",
+        "url": "https://anime.girigirilove.com/?ref=www.7udh.com",
+        "desc": "anime.girigirilove.com 网站"
+      },
+      {
+        "title": "AnFuns动漫_在线动漫资源门户",
+        "url": "https://www.anfuns.org/",
+        "desc": "anfuns.org 网站"
+      },
+      {
+        "title": "爱恋动漫",
+        "url": "https://m.kisssub.org/",
+        "desc": "m.kisssub.org 网站"
+      },
+      {
+        "title": "资源汇总（内容多，需要时间加载） - 飞书云文档",
+        "url": "https://ki3y96dgin2.feishu.cn/wiki/EuOmwwZMCibBO8kYxy6cIKYVnbb",
+        "desc": "ki3y96dgin2.feishu.cn 网站"
+      },
+      {
+        "title": "GitHub - chinavpns/torrent-site: 2025年最好用的BT种子下载网站推荐！除了介绍优质的BT种子网站之外，本文还会推荐几款实用的BT下载工具，配合使用效果更佳。如果你想长期稳定地获取BT种子资源，减少广告干扰，提高下载成功率，这份清单值得收藏。",
+        "url": "https://github.com/chinavpns/torrent-site",
+        "desc": "GitHub 代码托管平台"
+      },
+      {
+        "title": "首页-书签地球-中国首家浏览器书签共享搜索引擎平台",
+        "url": "https://www.bookmarkearth.cn/",
+        "desc": "bookmarkearth.cn 网站"
+      },
+      {
+        "title": "Freecat 🐾自由猫 - 全球网络加速服务商",
+        "url": "https://ziyoumao.cloud/",
+        "desc": "ziyoumao.cloud 网站"
+      },
+      {
+        "title": "登录 — iKuuu VPN",
+        "url": "https://ikuuu.win/auth/login",
+        "desc": "ikuuu.win 网站"
+      },
+      {
+        "title": "一元机场.VIP",
+        "url": "https://xn--fiqs8s9rjgsr.com/public-Q/#/login",
+        "desc": "xn--fiqs8s9rjgsr.com 网站"
+      },
+      {
+        "title": "JavaGuide&Java面试交流圈-知识星球",
+        "url": "https://wx.zsxq.com/group/48418884588288",
+        "desc": "wx.zsxq.com 网站"
+      },
+      {
+        "title": "Seata AT 模式 | Apache Seata",
+        "url": "https://seata.apache.org/zh-cn/docs/dev/mode/at-mode/",
+        "desc": "seata.apache.org 网站"
+      },
+      {
+        "title": "周志明的软件架构课_软件架构_分布式系统_基础设施_架构演进_单体架构_SOA架构_微服务_云原生-极客时间",
+        "url": "https://time.geekbang.org/opencourse/intro/100064201",
+        "desc": "time.geekbang.org 网站"
+      },
+      {
+        "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+        "url": "https://www.nowcoder.com/",
+        "desc": "nowcoder.com 网站"
+      },
+      {
+        "title": "佚名运维-运维笔记",
+        "url": "https://ymyw.net/",
+        "desc": "ymyw.net 网站"
+      },
+      {
+        "title": "归寻吉他谱_等什么君_E调简单版弹唱谱-谱全了",
+        "url": "https://guistudy.com/tabs/1sdidQUuEwS",
+        "desc": "guistudy.com 网站"
+      },
+      {
+        "title": "三国杀一将成名 三国杀一将成名",
+        "url": "https://game.4399iw2.com/yxxsgs/tpl-sid-1-site-2_1-channel-other-randsj-0.022427590158966115?rand=0.7434587784008924",
+        "desc": "game.4399iw2.com 网站"
+      },
+      {
+        "title": "圣诞快乐，劳伦斯先生吉他谱_坂本龙一_C调原版弹唱谱-谱全了",
+        "url": "https://guistudy.com/tabs/1H9RlOAKr",
+        "desc": "guistudy.com 网站"
+      },
+      {
+        "title": "我记得吉他谱_赵雷_E调六线谱_懒人吉他弹唱谱_吉他站站",
+        "url": "https://m.jitazz.com//puku/22916.html",
+        "desc": "m.jitazz.com 网站"
+      },
+      {
+        "title": "新造的人吉他谱_郑宜农_C调版吉他弹唱谱 - 吉他园地",
+        "url": "https://m.jitahome.com/7721.html",
+        "desc": "m.jitahome.com 网站"
+      },
+      {
+        "title": "ギターコード/ウクレレ/ピアノ/バンドスコア見放題 Ｕ-フレット",
+        "url": "https://www.ufret.jp/",
+        "desc": "ufret.jp 网站"
+      }
+    ]
+  },
+  {
+    "category": "影视资源",
+    "icon": "🎬",
+    "items": [
+      {
+        "title": "BT天堂",
+        "url": "https://www.bt-tt.com/",
+        "desc": "高清电影下载"
+      },
+      {
+        "title": "BT影视",
+        "url": "https://www.btbtl.com/",
+        "desc": "4K高清电影BT下载"
+      },
+      {
+        "title": "迅雷电影天堂",
+        "url": "https://xunlei8.cc/",
+        "desc": "最新电影高清迅雷下载"
+      },
+      {
+        "title": "天天美剧",
+        "url": "https://www.meijuq.com/",
+        "desc": "美剧搜索观看"
+      },
+      {
+        "title": "LenTV",
+        "url": "https://www.len.tv/",
+        "desc": "在线观看"
+      },
+      {
+        "title": "爱壹帆",
+        "url": "https://m.iyf.tv/",
+        "desc": "免费在线观看"
+      },
+      {
+        "title": "二狗蛋的资源库",
+        "url": "https://link3.cc/vitaian",
+        "desc": "影视资源库"
+      },
+      {
+        "title": "rutracker",
+        "url": "https://rutracker.org/forum/login.php",
+        "desc": "资源论坛"
+      },
+      {
+        "title": "ByRutor",
+        "url": "https://repack-byrutor.org/",
+        "desc": "游戏/影视资源"
+      },
+      {
+        "title": "E-Hentai Forums",
+        "url": "https://forums.e-hentai.org/index.php?",
+        "desc": "forums.e-hentai.org 网站"
+      },
+      {
+        "title": "Home | Hentairules.net Image Galleries",
+        "url": "https://www.hentairules.net/galleries14/",
+        "desc": "hentairules.net 网站"
+      },
+      {
+        "title": "IXXX - Xvideos Porn Movies At XnHub Porntube",
+        "url": "https://www.xnhub.com/",
+        "desc": "xnhub.com 网站"
+      },
+      {
+        "title": "Chaturbate - Free Adult Webcams, Live Sex, Free Sex Chat, Exhibitionist & Pornstar Free Cams",
+        "url": "https://m.chaturbate.com/",
+        "desc": "m.chaturbate.com 网站"
+      },
+      {
+        "title": "Jable.TV | 免費高清AV在線看 | J片 AV看到飽",
+        "url": "https://jable.tv/",
+        "desc": "jable.tv 网站"
+      },
+      {
+        "title": "XXX Pics at NylonStrapon Dump Site",
+        "url": "https://www.nylonstrapon.com/",
+        "desc": "nylonstrapon.com 网站"
+      },
+      {
+        "title": "MFC Share 🌴",
+        "url": "https://share.myfreecams.com/?cam=30603",
+        "desc": "share.myfreecams.com 网站"
+      },
+      {
+        "title": "Straponcum – Requested Ballerina Strapon Fucked Video HD Tube Sex 3gp",
+        "url": "https://mvideos.pro/straponcum-requested-ballerina-strapon-fucked/",
+        "desc": "mvideos.pro 网站"
+      },
+      {
+        "title": "阴茎锻炼手册",
+        "url": "https://yinjing.net/",
+        "desc": "yinjing.net 网站"
+      },
+      {
+        "title": "免費成人視頻 - XVIDEOS.COM",
+        "url": "https://www.xvideos.com/",
+        "desc": "xvideos.com 网站"
+      },
+      {
+        "title": "免費成人視頻, 性愛視頻, XXX圖片, 性感女孩 - XNXX.COM",
+        "url": "https://www.xnxx.com/",
+        "desc": "xnxx.com 网站"
+      },
+      {
+        "title": "最近、、エッチした記憶がありません。 [挿入アップで] - FC2 Live 成人频道",
+        "url": "https://live.fc2.com/45647024/",
+        "desc": "live.fc2.com 网站"
+      },
+      {
+        "title": "6661.fec7.com",
+        "url": "https://6661.fec7.com/web/duanpian.html",
+        "desc": "6661.fec7.com 网站"
+      },
+      {
+        "title": "CA情色小说 – 线上免费阅读中文情色小说、色情小说、成人文学！",
+        "url": "https://99xs.icu/enter",
+        "desc": "99xs.icu 网站"
+      },
+      {
+        "title": "禁漫之家 - 熱門漫畫_最新漫畫_免費觀看",
+        "url": "https://jmzj.xyz/",
+        "desc": "jmzj.xyz 网站"
+      },
+      {
+        "title": "PicAcg-哔咔漫画下载",
+        "url": "https://pica2023.com/",
+        "desc": "pica2023.com 网站"
+      },
+      {
+        "title": "The Hentai World - Huge variety of hentai porn.",
+        "url": "https://thehentaiworld.com/",
+        "desc": "thehentaiworld.com 网站"
+      },
+      {
+        "title": "01bz",
+        "url": "http://kanqita.com/",
+        "desc": "kanqita.com 网站"
+      },
+      {
+        "title": "我的Galgame资源发布站 - 忧郁的loli_忧郁的弟弟",
+        "url": "https://www.ttloli.com/",
+        "desc": "ttloli.com 网站"
+      },
+      {
+        "title": "紳士漫畫移動版-專注分享漢化本子",
+        "url": "https://wnacg.com/",
+        "desc": "wnacg.com 网站"
+      },
+      {
+        "title": "免費A漫 - 禁漫天堂",
+        "url": "https://18comic.vip/",
+        "desc": "18comic.vip 网站"
+      },
+      {
+        "title": "[PIXIV] 御坂12003详情介绍-[PIXIV] 御坂12003在线观看-[PIXIV] 御坂12003迅雷下载 - 暴走J8 | 一夜夫妻 - HACG社区",
+        "url": "https://tianna.coshan.sbs/artdetail-6106.html",
+        "desc": "tianna.coshan.sbs 网站"
+      },
+      {
+        "title": "Watch Free Hentai Video Streams Online in 720p, 1080p HD - hanime.tv",
+        "url": "https://hanime.tv/",
+        "desc": "hanime.tv 网站"
+      },
+      {
+        "title": "defuhao",
+        "url": "http://h5.xuanshang.fyi/#/",
+        "desc": "h5.xuanshang.fyi 网站"
+      },
+      {
+        "title": "悉尼留子互约群！花中国男友的前给黑人当性奴 干一次要缓还几天～ - 51黑料网",
+        "url": "https://www.51hl08.com/archives/63252/",
+        "desc": "51hl08.com 网站"
+      },
+      {
+        "title": "「干货推荐」这些年约炮撩妹经验总结，绝对干货你能学到的！-共享干货-帝王之家",
+        "url": "https://www.ddwwzzjj.top/front/article/917/viewArticle",
+        "desc": "ddwwzzjj.top 网站"
+      },
+      {
+        "title": "Chinese Girl Porn Videos: Free Chinese Girl Sex Videos - SpankBang",
+        "url": "https://spankbang.com/s/chinese+girl/",
+        "desc": "spankbang.com 网站"
+      }
+    ]
+  },
+  {
+    "category": "电子书",
+    "icon": "📖",
+    "items": [
+      {
+        "title": "八零电子书",
+        "url": "https://m.txt80.cc/",
+        "desc": "小说排行榜 TXT电子书"
+      },
+      {
+        "title": "虫部落快搜",
+        "url": "https://search.chongbuluo.com/",
+        "desc": "搜索快人一步"
+      },
+      {
+        "title": "浙江省公共图书馆",
+        "url": "http://zjisa.zjlib.cn/home/zy_home.jsp",
+        "desc": "公共图书馆资源服务门户"
+      },
+      {
+        "title": "鸠摩搜索",
+        "url": "https://www.jiumodiary.com/",
+        "desc": "文档搜索引擎"
+      },
+      {
+        "title": "电子书搜索",
+        "url": "https://www.giffox.com/",
+        "desc": "找电子书"
+      },
+      {
+        "title": "Magazine Reader",
+        "url": "https://mgreader.com/",
+        "desc": "免费杂志报纸在线阅读"
+      },
+      {
+        "title": "熊猫搜书_熊猫搜索_一站式读书学习导航站_聚合电子书及文档搜索_xmsoushu_xmsearch",
+        "url": "https://xmsoushu.com/?ref=itotii#/",
+        "desc": "xmsoushu.com 网站"
+      },
+      {
+        "title": "青空文庫　Aozora Bunko",
+        "url": "https://www.aozora.gr.jp/index.html",
+        "desc": "aozora.gr.jp 网站"
+      },
+      {
+        "title": "ant搬运网, 全网最新最全的在线日本生肉漫画, ant搬运网",
+        "url": "https://antbyw.github.io/",
+        "desc": "antbyw.github.io 网站"
+      }
+    ]
+  },
+  {
+    "category": "游戏资源",
+    "icon": "🎮",
+    "items": [
+      {
+        "title": "游民星空",
+        "url": "https://down.gamersky.com/",
+        "desc": "单机游戏下载"
+      },
+      {
+        "title": "3DM游戏网",
+        "url": "https://www.3dmgame.com/",
+        "desc": "单机游戏大全"
+      },
+      {
+        "title": "GOG Games",
+        "url": "https://gog-games.com/",
+        "desc": "免费GOG PC游戏下载"
+      },
+      {
+        "title": "Nexus Mods",
+        "url": "https://next.nexusmods.com/",
+        "desc": "游戏模组社区"
+      },
+      {
+        "title": "塞尔达攻略",
+        "url": "https://www.vgover.com/strategy/1001",
+        "desc": "旷野之息攻略"
+      },
+      {
+        "title": "flysheep资源避难所",
+        "url": "https://www.flysheep6.com/",
+        "desc": "游戏资源"
+      },
+      {
+        "title": "昆特牌卡组",
+        "url": "https://www.iyingdi.com/web/tools/gwent/userdecks",
+        "desc": "昆特牌卡组分享"
+      }
+    ]
+  },
+  {
+    "category": "下载工具",
+    "icon": "⬇️",
+    "items": [
+      {
+        "title": "贝贝工具站",
+        "url": "https://xbeibeix.com/",
+        "desc": "资源下载站"
+      },
+      {
+        "title": "磁力狐",
+        "url": "https://s34.foxso.top/",
+        "desc": "磁力搜索"
+      },
+      {
+        "title": "柒夜导航",
+        "url": "https://nav.qinight.com/",
+        "desc": "黑科技网站资源集"
+      },
+      {
+        "title": "爱分享导航",
+        "url": "https://ifxdh.com/",
+        "desc": "收录喜欢的网站"
+      },
+      {
+        "title": "千帆搜索",
+        "url": "https://pan.qianfan.app/",
+        "desc": "网盘搜索引擎"
+      },
+      {
+        "title": "懒盘搜索",
+        "url": "https://lzpanx.com/",
+        "desc": "阿里云盘搜索引擎"
+      },
+      {
+        "title": "IT技术之家",
+        "url": "https://www.ittel.cn/",
+        "desc": "无欢不爱的博客"
+      }
+    ]
+  },
+  {
+    "category": "VR资源",
+    "icon": "🥽",
+    "items": [
+      {
+        "title": "VRcoast",
+        "url": "https://www.vrcoast.cn/bbs/333364.html",
+        "desc": "VR电影高清3D资源"
+      },
+      {
+        "title": "VR游戏资源库",
+        "url": "https://www.vrquest.cn/category-22.html",
+        "desc": "免费VR游戏下载"
+      },
+      {
+        "title": "SkrBT",
+        "url": "https://skrbtdzh.top/",
+        "desc": "BT资源"
+      },
+      {
+        "title": "JVR Library",
+        "url": "https://jvrlibrary.com/zh/jvr",
+        "desc": "VR内容库"
+      }
+    ]
+  },
+  {
+    "category": "校园服务",
+    "icon": "🏫",
+    "items": [
+      {
+        "title": "惠州学院一网通办",
+        "url": "https://ywtb.hzu.edu.cn/index.html",
+        "desc": "校内服务平台"
+      },
+      {
+        "title": "惠州学院官网",
+        "url": "https://www.hzu.edu.cn/",
+        "desc": "学校官方网站"
+      },
+      {
+        "title": "教学管理系统",
+        "url": "https://jwxt.hzu.edu.cn/xtgl/index_initMenu.html",
+        "desc": "教务系统"
+      },
+      {
+        "title": "网上办事大厅",
+        "url": "https://ehall.hzu.edu.cn/new/index.html",
+        "desc": "办事服务大厅"
+      },
+      {
+        "title": "教务处通知",
+        "url": "https://jwc.hzu.edu.cn/116/list.htm",
+        "desc": "教务通知公告"
+      },
+      {
+        "title": "教学管理信息服务平台",
+        "url": "https://jwxt.hzu.edu.cn/xtgl/index_initMenu.html?jsdm=",
+        "desc": "教务平台"
+      }
     ]
   }
 ]
